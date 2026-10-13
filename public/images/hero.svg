@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c1917"/>
+      <stop offset="0.55" stop-color="#44403c"/>
+      <stop offset="1" stop-color="#78350f"/>
+    </linearGradient>
+    <linearGradient id="pole" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#d97706"/>
+    </linearGradient>
+    <pattern id="stripes" width="60" height="60" patternUnits="userSpaceOnUse" patternTransform="rotate(25)">
+      <rect width="60" height="60" fill="url(#pole)"/>
+      <rect width="20" height="60" fill="#fafaf9"/>
+      <rect x="40" width="8" height="60" fill="#1c1917"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <circle cx="990" cy="140" r="340" fill="#fbbf24" opacity="0.08"/>
+  <circle cx="120" cy="800" r="260" fill="#f59e0b" opacity="0.07"/>
+  <!-- barber pole motif -->
+  <g transform="translate(880 250)">
+    <rect x="-58" y="-36" width="140" height="36" rx="10" fill="#292524"/>
+    <rect x="-58" y="240" width="140" height="36" rx="10" fill="#292524"/>
+    <rect x="-30" y="-70" width="84" height="34" rx="17" fill="#fbbf24"/>
+    <rect x="-30" y="276" width="84" height="34" rx="17" fill="#fbbf24"/>
+    <rect x="-44" y="0" width="112" height="240" rx="56" fill="url(#stripes)"/>
+    <rect x="-44" y="0" width="112" height="240" rx="56" fill="none" stroke="#0c0a09" stroke-opacity="0.35" stroke-width="4"/>
+    <rect x="-24" y="14" width="20" height="212" rx="10" fill="#ffffff" opacity="0.25"/>
+  </g>
+  <text x="90" y="420" font-family="Georgia, 'Times New Roman', serif" font-size="86" font-weight="bold" fill="#fafaf9">Iron &amp; Oak</text>
+  <text x="94" y="486" font-family="Georgia, 'Times New Roman', serif" font-size="40" fill="#fbbf24" letter-spacing="6">BARBER CO.</text>
+  <rect x="94" y="530" width="120" height="6" fill="#f59e0b"/>
+  <text x="94" y="590" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#d6d3d1">Sharp cuts. Classic craft.</text>
+</svg>

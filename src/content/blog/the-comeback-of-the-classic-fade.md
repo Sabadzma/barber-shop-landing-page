@@ -1,0 +1,26 @@
+---
+title: "The Comeback of the Classic Fade"
+description: "The fade never really left — but the way we're cutting it now owes more to the 1950s than to last year's trends. Here's why the classic is winning again."
+pubDate: 2026-09-14
+author: "Jake Thompson"
+image: "/images/blog/cover-3.svg"
+tags: ["Styles"]
+---
+
+Trends in men's hair move in cycles, and right now the pendulum has swung back to the cut that never should have left: the classic fade. Not the skin-tight, high-contrast version that dominated the last decade — the softer, lower, scissor-blended fade your grandfather wore.
+
+## What changed
+
+The high skin fade was all about contrast: bare skin at the bottom, a hard line of transition, length on top. It photographs well, but it grows out badly and demands a barber visit every two weeks to stay crisp. Clients got tired of the maintenance treadmill.
+
+The classic fade sits **lower on the head**, keeps a little weight around the temples, and blends with clippers-and-scissors instead of a bare blade. The transition is gradual. From across the room it reads as "well-groomed" rather than "fresh from the chair" — and it still looks intentional three weeks later.
+
+## Why barbers love cutting it
+
+Honestly? It's harder. A skin fade hides behind its own sharpness — the contrast does the visual work. A low classic fade lives or dies on the blend, and there's nowhere for sloppy clipper work to hide. When a client asks for one, I know I get to do real craftsmanship.
+
+## Who it suits
+
+Almost everyone, which is the point. It works with a side part, a textured crop, slicked back, or natural curls on top. It fits a boardroom and a job site. If you've been riding the high-fade wave and want something that grows out gracefully, ask for a **low taper fade with a scissor blend** — that's the language we speak.
+
+Some cuts are trends. This one is a standard. Welcome back to it.

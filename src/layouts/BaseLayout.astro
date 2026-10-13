@@ -1,0 +1,60 @@
+---
+import "@/styles/globals.css";
+import { SiteHeader } from "@/components/marketing/site-header";
+import { FooterLarge01Brand } from "@/components/marketing/footers/footer-large-01-brand";
+
+interface Props {
+    title: string;
+    description?: string;
+}
+
+const { title, description = "Iron & Oak Barber Co. — sharp cuts and classic craft in Portland, OR." } = Astro.props;
+
+const navItems = [
+    { label: "Services", href: "/#services" },
+    { label: "Barbers", href: "/#barbers" },
+    { label: "Blog", href: "/blog" },
+];
+
+const footerNavList = [
+    {
+        label: "Shop",
+        items: [
+            { label: "Services", href: "/#services" },
+            { label: "Barbers", href: "/#barbers" },
+            { label: "Blog", href: "/blog" },
+            { label: "Book a chair", href: "/#book" },
+        ],
+    },
+    {
+        label: "Visit",
+        items: [{ label: "214 Main St, Portland, OR" }, { label: "Tue–Sat, 9:00–19:00" }, { label: "(555) 013-2026", href: "tel:+15550132026" }],
+    },
+    {
+        label: "Social",
+        items: [
+            { label: "Instagram", href: "https://instagram.com" },
+            { label: "Facebook", href: "https://facebook.com" },
+            { label: "X", href: "https://x.com" },
+        ],
+    },
+];
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content={description} />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <title>{title}</title>
+    </head>
+    <body class="bg-primary">
+        <SiteHeader client:load items={navItems} cta={{ label: "Book your chair", href: "/#book" }} />
+        <main>
+            <slot />
+        </main>
+        <FooterLarge01Brand navList={footerNavList} copyright="© 2026 Iron & Oak Barber Co." />
+    </body>
+</html>

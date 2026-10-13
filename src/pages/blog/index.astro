@@ -1,0 +1,39 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { HeaderCenteredBrand } from "@/components/marketing/header-section/header-centered-brand";
+import { Simple01Vertical, type Article } from "@/components/marketing/blog/base-components/blog-cards";
+
+const posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+const barbers = await getCollection("barbers");
+const barberImageByName = new Map(barbers.map((b) => [b.data.name, b.data.image]));
+const formatDate = (date: Date) => date.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+
+const articles: Article[] = posts.map((post) => ({
+    id: post.id,
+    href: `/blog/${post.id}`,
+    thumbnailUrl: post.data.image,
+    title: post.data.title,
+    summary: post.data.description,
+    category: { name: post.data.tags[0] ?? "Blog", href: "/blog" },
+    author: {
+        name: post.data.author,
+        href: "/#barbers",
+        avatarUrl: barberImageByName.get(post.data.author) ?? "/images/hero.svg",
+    },
+    publishedAt: formatDate(post.data.pubDate),
+    readingTime: "",
+    tags: [],
+}));
+---
+
+<BaseLayout title="Blog — Iron & Oak Barber Co." description="Grooming advice and shop notes from the barbers of Iron & Oak Barber Co.">
+    <HeaderCenteredBrand overline="The Iron & Oak journal" title="Notes from the chair" description="Grooming routines, style guides and shop craft — written by the people who cut your hair." />
+    <section class="bg-secondary py-16 md:py-24">
+        <div class="mx-auto max-w-container px-4 md:px-8">
+            <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                {articles.map((article) => <Simple01Vertical article={article} />)}
+            </div>
+        </div>
+    </section>
+</BaseLayout>

@@ -1,0 +1,26 @@
+---
+title: "How Often Should You Really Get a Haircut?"
+description: "The honest answer depends on your cut, your hair, and your tolerance for the in-between weeks. Here's how we think about it at the chair."
+pubDate: 2026-10-12
+author: "Marco Rossi"
+image: "/images/blog/cover-1.svg"
+tags: ["Grooming"]
+---
+
+The most common question I get at the chair isn't about style — it's about timing. "When should I come back?" The honest answer: it depends on your cut, your hair growth rate, and how sharp you want to look on a random Tuesday, not just the day you leave the shop.
+
+## Short cuts need short intervals
+
+If you wear a skin fade, a crop, or anything tight on the sides, you're on a **2–3 week cycle**. Fades grow out fast because the contrast between lengths is the whole point. By week three, the blend softens and the neckline fuzzes out. Some of our regulars book a standing appointment every other Friday — they never look grown-out, and the cut takes twenty minutes because there's less to correct.
+
+## Medium lengths have more forgiveness
+
+Classic scissor cuts, side parts, and anything over two inches can stretch to **4–6 weeks**. The shape holds longer because there's no hard contrast to maintain. What gives out first is usually the weight around the ears and the nape — if you're between visits, a quick neck cleanup buys you another week or two.
+
+## Long hair plays the long game
+
+Growing it out? You still need a trim every **8–12 weeks**. Skipping cuts entirely doesn't get you length faster — it gets you split ends that travel up the shaft and force a bigger cut later. Think of it as pruning, not cutting.
+
+## The real answer
+
+Watch the neckline and the area around your ears. When those start looking soft, it's time. Everything else is negotiable. And if you're not sure, come by — we'll tell you honestly whether you need a cut or another week. Sometimes the best haircut is the one you don't get yet.
