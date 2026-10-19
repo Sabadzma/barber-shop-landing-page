@@ -4,6 +4,7 @@ import node from '@astrojs/node';
 import react from '@astrojs/react';
 import tailwindcss from '@tailwindcss/vite';
 import { conlocaCMS } from '@conloca/astro-cms/node';
+import { conlocaCloud } from '@conloca/cloud-astro';
 
 // https://astro.build/config
 export default defineConfig({
@@ -48,6 +49,14 @@ export default defineConfig({
         siteName: 'default',
         locale: 'en',
       },
+    }),
+    conlocaCloud({
+      endpoint: 'https://app.conloca.com',
+      puckConfigPath: './src/puck.config.tsx',
+      publicBaseUrl: 'https://barber-shop-landing-page-opal.vercel.app',
+      previewBuild: false,
+      requireRegistration: true,
+      siteStyles: './src/styles/globals.css',
     }),
   ],
   vite: {

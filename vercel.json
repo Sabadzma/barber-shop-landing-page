@@ -1,0 +1,10 @@
+{
+  "headers": [
+    {
+      "source": "/_conloca/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    }
+  ]
+}
