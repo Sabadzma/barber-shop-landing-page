@@ -1,0 +1,23 @@
+{
+  "created": "2026-09-14T09:00:00.000Z",
+  "id": "vx-post0001",
+  "meta": {
+    "author": "Jake Thompson",
+    "description": "The fade never really left — but the way we're cutting it now owes more to the 1950s than to last year's trends. Here's why the classic is winning again.",
+    "image": "/images/blog/cover-3.svg",
+    "tags": ["Styles"],
+    "title": "The Comeback of the Classic Fade"
+  },
+  "modified": "2026-09-14T09:00:00.000Z",
+  "publishAt": "2026-09-14T09:00:00.000Z",
+  "type": "puck",
+  "content": {
+    "puckData": {
+      "root": { "props": {} },
+      "zones": {},
+      "content": [
+        { "type": "ContentFragmentSection", "props": { "id": "ContentFragmentSection-1", "fragmentId": "vx-frag0001" } }
+      ]
+    }
+  }
+}

@@ -1,14 +1,56 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
-
+import node from '@astrojs/node';
 import react from '@astrojs/react';
 import tailwindcss from '@tailwindcss/vite';
+import { conlocaCMS } from '@conloca/astro-cms/node';
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [react()],
-
+  output: 'server',
+  adapter: node({ mode: 'standalone' }),
+  integrations: [
+    react(),
+    conlocaCMS({
+      contentRoot: './content',
+      canvasDir: './canvas',
+      puckConfigPath: './src/puck.config.tsx',
+      schemasPath: './src/schemas/data.ts',
+      assetsPath: './public/assets',
+      siteStyles: './src/styles/globals.css',
+      templates: {
+        blogPost: {
+          label: 'Blog Post',
+          component: 'ContentFragmentSection',
+          pathPrefix: '/blog/',
+          description: 'Article page — header from Page settings, body from a content fragment',
+        },
+      },
+      routing: {
+        routes: {
+          // One catch-all over the `pages` collection serves home AND posts
+          // (content/default/pages/blog/<slug>). A second dynamic route is not
+          // viable on 0.2.1: every injected route shares one getStaticPaths,
+          // and Astro re-keys each entry under the serving route's pattern —
+          // entries whose params were computed for a different pattern name
+          // collide at the pattern's root URL (a post shadowed '/').
+          pages: {
+            pattern: '/[...page]',
+            collection: 'pages',
+            layout: './src/layouts/BaseLayout.astro',
+            dataBindings: {
+              collections: ['barbers'],
+              pages: { prefix: '/blog/', sort: 'date-desc', limit: 3 },
+            },
+          },
+        },
+        fallback: '404',
+        siteName: 'default',
+        locale: 'en',
+      },
+    }),
+  ],
   vite: {
-    plugins: [tailwindcss()]
-  }
+    plugins: [tailwindcss()],
+  },
 });

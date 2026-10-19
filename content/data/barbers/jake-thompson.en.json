@@ -1,0 +1,16 @@
+{
+  "created": "2026-10-19T09:00:00.000Z",
+  "data": {
+    "bio": "Jake's blends are the reason half our Google reviews mention fades by name. Ten years in, he still practices new transitions on mannequins every Sunday.",
+    "image": "/images/barbers/jake.svg",
+    "name": "Jake Thompson",
+    "order": 2,
+    "title": "Fade Specialist"
+  },
+  "id": "vx-barber002",
+  "meta": {
+    "title": "Jake Thompson"
+  },
+  "modified": "2026-10-19T09:00:00.000Z",
+  "type": "json"
+}

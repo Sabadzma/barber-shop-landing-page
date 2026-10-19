@@ -1,26 +1,12 @@
-import { defineCollection, z } from "astro:content";
-import { glob } from "astro/loaders";
+import { conlocaData, conlocaFragments, conlocaPages } from "@conloca/astro-cms/node/content";
+import { dataSchemas, pageSchemas } from "./schemas/data";
 
-const blog = defineCollection({
-  loader: glob({ pattern: "**/*.md", base: "./src/content/blog" }),
-  schema: z.object({
-    title: z.string(),
-    description: z.string(),
-    pubDate: z.coerce.date(),
-    author: z.string(),
-    image: z.string(),
-    tags: z.array(z.string()).default([]),
-  }),
-});
-
-const barbers = defineCollection({
-  loader: glob({ pattern: "**/*.md", base: "./src/content/barbers" }),
-  schema: z.object({
-    name: z.string(),
-    title: z.string(),
-    image: z.string(),
-    order: z.number().default(0),
-  }),
-});
-
-export const collections = { blog, barbers };
+// `pages` is the single page collection: the catch-all route serves home and
+// posts (filed at content/default/pages/blog/) from it. `posts` exists only as
+// a fragment folder (content/fragments/posts/) — conlocaFragments declares it
+// and the aggregate __conloca_fragments collection indexes every fragment.
+export const collections = {
+    pages: conlocaPages({ pageSchemas }),
+    ...conlocaData({ dataSchemas }),
+    ...conlocaFragments("posts"),
+};

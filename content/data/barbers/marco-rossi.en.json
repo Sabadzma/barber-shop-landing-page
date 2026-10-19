@@ -1,0 +1,16 @@
+{
+  "created": "2026-10-19T09:00:00.000Z",
+  "data": {
+    "bio": "Marco opened Iron & Oak in 2015 after a decade behind chairs in Milan and Portland. He believes a haircut is a craft appointment, not an errand.",
+    "image": "/images/barbers/marco.svg",
+    "name": "Marco Rossi",
+    "order": 1,
+    "title": "Master Barber & Founder"
+  },
+  "id": "vx-barber001",
+  "meta": {
+    "title": "Marco Rossi"
+  },
+  "modified": "2026-10-19T09:00:00.000Z",
+  "type": "json"
+}

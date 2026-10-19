@@ -1,0 +1,175 @@
+{
+	"created": "2026-10-19T09:00:00.000Z",
+	"id": "vx-home0001",
+	"meta": {
+		"description": "Iron & Oak Barber Co. — sharp cuts and classic craft in Portland, OR.",
+		"title": "Iron & Oak Barber Co. — Sharp cuts. Classic craft."
+	},
+	"modified": "2026-10-19T11:28:26.039Z",
+	"type": "puck",
+	"content": {
+		"puckData": {
+			"content": [
+				{
+					"props": {
+						"badge": "Walk-ins welcome",
+						"heading": "Sharp cuts. Classic craft.",
+						"id": "HeroSplit-1",
+						"image": "/images/hero.svg",
+						"primaryCta": {
+							"href": "#book",
+							"label": "Book your chair"
+						},
+						"secondaryCta": {
+							"href": "#services",
+							"label": "Our services"
+						},
+						"subheading": "Iron & Oak is a neighborhood barber shop in Portland, OR. Four chairs, straight razors, hot towels — and a cut that still looks right three weeks later."
+					},
+					"type": "HeroSplit"
+				},
+				{
+					"props": {
+						"id": "ServicesGrid-1",
+						"services": [
+							{
+								"description": "Consultation, precision scissor or clipper cut, shampoo and style. The everyday standard, done right.",
+								"icon": "scissors",
+								"name": "Classic Haircut",
+								"price": "$35"
+							},
+							{
+								"description": "High, mid or low — blended to the skin with a razor-detailed finish and crisp edges.",
+								"icon": "star",
+								"name": "Skin Fade",
+								"price": "$38"
+							},
+							{
+								"description": "Beard architecture: lines set, bulk managed, edges razor-finished, oil to close.",
+								"icon": "face",
+								"name": "Beard Trim & Shape",
+								"price": "$25"
+							},
+							{
+								"description": "The full ritual — hot towels, pre-shave oil, straight razor, cold towel finish.",
+								"icon": "brush",
+								"name": "Hot Towel Shave",
+								"price": "$40"
+							},
+							{
+								"description": "Patient, unhurried cuts for the under-12s. First haircut certificates on request.",
+								"icon": "shield",
+								"name": "Kids Cut",
+								"price": "$25"
+							},
+							{
+								"description": "Cut, shave, beard shape, eyebrows and a scalp massage. Ninety minutes, zero errands.",
+								"icon": "diamond",
+								"name": "The Full Works",
+								"price": "$65"
+							}
+						]
+					},
+					"type": "ServicesGrid"
+				},
+				{
+					"props": {
+						"id": "BarbersGrid-1"
+					},
+					"type": "BarbersGrid"
+				},
+				{
+					"props": {
+						"authorName": "Daniel Reyes",
+						"authorTitle": "Regular since 2020",
+						"id": "TestimonialSimple-1",
+						"quote": "I've been coming to Iron & Oak every three weeks for six years. Marco's crew set the fade standard in this town — I've never once left with a bad cut."
+					},
+					"type": "TestimonialSimple"
+				},
+				{
+					"props": {
+						"articles": [
+							{
+								"author": {
+									"avatarUrl": "/images/barbers/marco.svg",
+									"href": "/#barbers",
+									"name": "Marco Rossi"
+								},
+								"category": {
+									"href": "/blog",
+									"name": "Grooming"
+								},
+								"href": "/blog/how-often-should-you-get-a-haircut",
+								"id": "/blog/how-often-should-you-get-a-haircut",
+								"publishedAt": "October 12, 2026",
+								"readingTime": "",
+								"summary": "The honest answer depends on your cut, your hair, and your tolerance for the in-between weeks. Here's how we think about it at the chair.",
+								"tags": [],
+								"thumbnailUrl": "/images/blog/cover-1.svg",
+								"title": "How Often Should You Really Get a Haircut?"
+							},
+							{
+								"author": {
+									"avatarUrl": "/images/barbers/eli.svg",
+									"href": "/#barbers",
+									"name": "Eli Turner"
+								},
+								"category": {
+									"href": "/blog",
+									"name": "Beard care"
+								},
+								"href": "/blog/beard-care-essentials",
+								"id": "/blog/beard-care-essentials",
+								"publishedAt": "September 28, 2026",
+								"readingTime": "",
+								"summary": "Oil, balm, brush, trim — the four things that separate a great beard from a neglected one, in the order that actually matters.",
+								"tags": [],
+								"thumbnailUrl": "/images/blog/cover-2.svg",
+								"title": "Beard Care Essentials: A Barber's Routine"
+							},
+							{
+								"author": {
+									"avatarUrl": "/images/barbers/jake.svg",
+									"href": "/#barbers",
+									"name": "Jake Thompson"
+								},
+								"category": {
+									"href": "/blog",
+									"name": "Styles"
+								},
+								"href": "/blog/the-comeback-of-the-classic-fade",
+								"id": "/blog/the-comeback-of-the-classic-fade",
+								"publishedAt": "September 14, 2026",
+								"readingTime": "",
+								"summary": "The fade never really left — but the way we're cutting it now owes more to the 1950s than to last year's trends. Here's why the classic is winning again.",
+								"tags": [],
+								"thumbnailUrl": "/images/blog/cover-3.svg",
+								"title": "The Comeback of the Classic Fade"
+							}
+						],
+						"id": "LatestBlogPosts-1"
+					},
+					"type": "LatestBlogPosts"
+				},
+				{
+					"props": {
+						"action": {
+							"href": "tel:+15550132026",
+							"label": "Call (555) 013-2026"
+						},
+						"heading": "Ready for a fresh cut?",
+						"id": "CtaSection-1",
+						"subtext": "Walk in Tue–Sat, 9:00–19:00 — or call ahead and skip the wait."
+					},
+					"type": "CtaSection"
+				}
+			],
+			"root": {
+				"props": {},
+				"type": "root"
+			},
+			"zones": {}
+		}
+	}
+}

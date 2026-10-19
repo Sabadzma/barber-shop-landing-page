@@ -1,0 +1,23 @@
+{
+  "created": "2026-09-28T09:00:00.000Z",
+  "id": "vx-post0002",
+  "meta": {
+    "author": "Eli Turner",
+    "description": "Oil, balm, brush, trim — the four things that separate a great beard from a neglected one, in the order that actually matters.",
+    "image": "/images/blog/cover-2.svg",
+    "tags": ["Beard care"],
+    "title": "Beard Care Essentials: A Barber's Routine"
+  },
+  "modified": "2026-09-28T09:00:00.000Z",
+  "publishAt": "2026-09-28T09:00:00.000Z",
+  "type": "puck",
+  "content": {
+    "puckData": {
+      "root": { "props": {} },
+      "zones": {},
+      "content": [
+        { "type": "ContentFragmentSection", "props": { "id": "ContentFragmentSection-1", "fragmentId": "vx-frag0002" } }
+      ]
+    }
+  }
+}

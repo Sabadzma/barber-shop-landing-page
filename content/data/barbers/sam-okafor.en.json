@@ -1,0 +1,16 @@
+{
+  "created": "2026-10-19T09:00:00.000Z",
+  "data": {
+    "bio": "Sam handles everything from classic scissor cuts to modern texture work and subtle grey blending. If you want a change but don't know what, sit in Sam's chair.",
+    "image": "/images/barbers/sam.svg",
+    "name": "Sam Okafor",
+    "order": 4,
+    "title": "Stylist & Colorist"
+  },
+  "id": "vx-barber004",
+  "meta": {
+    "title": "Sam Okafor"
+  },
+  "modified": "2026-10-19T09:00:00.000Z",
+  "type": "json"
+}

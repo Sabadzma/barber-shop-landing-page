@@ -1,0 +1,23 @@
+{
+  "created": "2026-10-12T09:00:00.000Z",
+  "id": "vx-post0003",
+  "meta": {
+    "author": "Marco Rossi",
+    "description": "The honest answer depends on your cut, your hair, and your tolerance for the in-between weeks. Here's how we think about it at the chair.",
+    "image": "/images/blog/cover-1.svg",
+    "tags": ["Grooming"],
+    "title": "How Often Should You Really Get a Haircut?"
+  },
+  "modified": "2026-10-12T09:00:00.000Z",
+  "publishAt": "2026-10-12T09:00:00.000Z",
+  "type": "puck",
+  "content": {
+    "puckData": {
+      "root": { "props": {} },
+      "zones": {},
+      "content": [
+        { "type": "ContentFragmentSection", "props": { "id": "ContentFragmentSection-1", "fragmentId": "vx-frag0003" } }
+      ]
+    }
+  }
+}
