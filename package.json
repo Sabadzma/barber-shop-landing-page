@@ -12,8 +12,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/node": "^11.1.8",
     "@astrojs/react": "^7.0.1",
+    "@astrojs/vercel": "^11.0.15",
     "@conloca/astro-cms": "^0.2.1",
     "@conloca/cloud-astro": "0.2.1",
     "@conloca/content-api": "^0.2.1",

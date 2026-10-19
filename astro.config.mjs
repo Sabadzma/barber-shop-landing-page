@@ -1,6 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
-import node from '@astrojs/node';
+import vercel from '@astrojs/vercel';
 import react from '@astrojs/react';
 import tailwindcss from '@tailwindcss/vite';
 import { conlocaCMS } from '@conloca/astro-cms/node';
@@ -9,7 +9,7 @@ import { conlocaCloud } from '@conloca/cloud-astro';
 // https://astro.build/config
 export default defineConfig({
   output: 'server',
-  adapter: node({ mode: 'standalone' }),
+  adapter: vercel(),
   integrations: [
     react(),
     conlocaCMS({
