@@ -1,0 +1,16 @@
+{
+	"created": "2026-10-21T10:46:53.072Z",
+	"id": "vx-01gd5cav",
+	"meta": {
+		"title": "Test page one"
+	},
+	"modified": "2026-10-21T10:46:53.072Z",
+	"type": "puck",
+	"content": {
+		"puckData": {
+			"content": [],
+			"root": {},
+			"zones": {}
+		}
+	}
+}
