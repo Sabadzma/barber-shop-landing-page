@@ -2,7 +2,10 @@
   "sites": {
     "default": {
       "locales": ["en"],
-      "defaultLocale": "en"
+      "defaultLocale": "en",
+      "domains": {
+        "en": "barber-shop-landing-page-opal.vercel.app"
+      }
     }
   },
   "globalLocales": ["en"]
