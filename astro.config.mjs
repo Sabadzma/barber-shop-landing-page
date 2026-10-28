@@ -53,9 +53,7 @@ export default defineConfig({
     conlocaCloud({
       endpoint: 'https://app.conloca.com',
       puckConfigPath: './src/puck.config.tsx',
-      publicBaseUrl: 'https://barber-shop-landing-page-opal.vercel.app',
       previewBuild: false,
-      requireRegistration: true,
       siteStyles: './src/styles/globals.css',
     }),
   ],
