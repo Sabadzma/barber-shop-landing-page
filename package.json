@@ -39,6 +39,7 @@
   "devDependencies": {
     "@conloca/cli": "0.2.3",
     "@ttsc/unplugin": "^0.30.4",
-    "ttsc": "0.30.4"
+    "ttsc": "0.30.4",
+    "typescript": "^7.0.2"
   }
 }
