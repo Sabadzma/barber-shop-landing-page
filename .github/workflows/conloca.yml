@@ -7,5 +7,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v2
       - run: bun install --frozen-lockfile
-      - run: bunx @conloca/cli doctor
-      - run: bun run build
+      - run: ./node_modules/.bin/ttsc prepare --tsconfig tsconfig.typia.json && ls -la node_modules/.cache/ttsc/plugins
+      - run: (while sleep 15; do date +%T; ps -eo pid,etimes,pcpu,args --sort=-pcpu | head -6 | cut -c1-220; done) & ./node_modules/.bin/astro build
+      - if: always()
+        run: ls -la node_modules/.cache/ttsc/plugins; which go node; node -v
