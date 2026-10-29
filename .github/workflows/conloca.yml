@@ -7,7 +7,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v2
       - run: bun install --frozen-lockfile
-      - run: ./node_modules/.bin/ttsc prepare --tsconfig tsconfig.typia.json; find node_modules/.cache/ttsc/plugins -maxdepth 3 || true; cat node_modules/.cache/ttsc/plugins/*.lock.v2/*/owner.json 2>/dev/null
+      - run: ./node_modules/.bin/ttsc prepare --tsconfig tsconfig.typia.json; find node_modules/.cache/ttsc/plugins -maxdepth 3 || true; cat node_modules/.cache/ttsc/plugins/*.lock.v2/*/owner.json 2>/dev/null || true
       - run: |
           node --report-on-signal --report-signal=SIGUSR2 --report-directory=/tmp/rep ./node_modules/astro/bin/astro.mjs build &
           P=$!; sleep 40; ps -ef --forest | grep -v "ps -ef" | grep -A8 astro.mjs | cut -c1-250; kill -USR2 $P; sleep 3
